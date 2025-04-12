@@ -47,7 +47,3 @@ No additional setup or dependencies required! The game runs entirely in the brow
 ## Contributing
 
 Feel free to fork this repository and submit pull requests for any improvements you'd like to add!
-
-## License
-
-This project is open source and available under the MIT License. 
