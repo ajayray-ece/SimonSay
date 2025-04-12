@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SimonSays</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🌐</text></svg>">
+</head>
+<body>
+    <h1>Simon Says Game</h1>
+    <h2>Press any key to start</h2>
+
+    <div class="btn-container">
+        <div class="line-one">
+            <div class="btn red" type="button" id="red"></div>
+            <div class="btn yellow" type="button" id="yellow"></div>
+        </div>
+        <div class="line-two">
+            <div class="btn green" type="button" id="green"></div>
+            <div class="btn purple" type="button" id="purple"></div>
+        </div>
+    </div>
+
+    <div class="overlay" id="overlay"></div>
+    <div class="popup" id="gameInfo">
+        <h3>How to Play Simon Says</h3>
+        <p>1. Press any key to start the game</p>
+        <p>2. Watch the sequence of colors that light up</p>
+        <p>3. Click the colors in the same sequence</p>
+        <p>4. Each successful round adds one more color to remember</p>
+        <p>5. Make a mistake, and the game is over!</p>
+        <button id="startGame">Got it, Let's Play!</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
